@@ -1,0 +1,65 @@
+/* Footer Section */
+.footer {
+    background-color: white; /* Keeping the background color white */
+    color: black; /* Changing text color to black */
+    padding: 20px 0;
+    font-size: 1.2rem; /* Keeping font size consistent */
+    text-align: center;
+    box-shadow: 0px -10px 10px 0px rgba(9, 5, 29, 0.171); /* Inverting the shadow direction */
+  }
+  
+  .footer a {
+    color: black; /* Adjusting link color to black */
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer a:hover {
+    opacity: 0.8;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer .logo {
+    font-size: 1.2rem; /* Keeping font size consistent */
+    font-weight: 500; /* Adjusting font weight */
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer .social-icons a {
+    color: black; /* Adjusting social icon color to black */
+    font-size: 25px; /* Keeping font size consistent */
+  }
+  
+  .footer .social-icons a:hover {
+    opacity: 0.8;
+  }
+  
+  .footer .legal-text {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      padding: 15px 0;
+      font-size: 1rem; /* Adjusting font size for smaller screens */
+    }
+  
+    .footer .container {
+      flex-direction: column;
+    }
+  
+    .footer .social-icons {
+      margin-top: 10px;
+    }
+  }
+  
